@@ -8,7 +8,8 @@
 
 **WealthView** is a full-stack, institutional-grade B2B quantitative risk and portfolio management SaaS platform. It is engineered to bridge the gap between complex econometric modeling and actionable portfolio allocation for High-Net-Worth (HNW) asset managers and private equity environments.
 
-![Dashboard Overview](docs/images/dashboard_main.png)
+<img width="1248" height="909" alt="dashboard_main" src="https://github.com/user-attachments/assets/d5d2916f-a723-48ce-8880-3d06c90c8953" />
+
 
 > **Note on Repository Contents:** Certain database schemas and client-side ingestion pipelines have been abstracted or omitted from this public repository to protect institutional data.
 
@@ -21,7 +22,8 @@ The platform's backend is implemented from first principles rather than by calli
 *   **Factor Attribution:** Implementation of **Fama-French 3-Factor models** utilizing Ordinary Least Squares (OLS) econometrics to dissect return streams.
 *   **Risk-Adjusted Performance:** Automated calculation of Sharpe Ratio, Treynor Ratio, Information Ratio, and Jensen's Alpha against dynamic benchmarks.
 
-![Equity Module DCF](docs/images/equity_dcf.png)
+<img width="1048" height="945" alt="equity_dcf" src="https://github.com/user-attachments/assets/42bed3bd-ec24-4ec6-aa64-7539ef4efede" />
+
 
 ### 2. Tail-Risk & Stress Testing Engine
 *   **Downside Risk:** Conditional Value at Risk (CVaR / Expected Shortfall) implementation for extreme market scenarios.
@@ -58,8 +60,40 @@ Numerical accuracy is enforced through rigorous unit testing via `pytest`. The t
 Run the test suite locally:
 ```bash
 pytest tests/test_quant_validation.py -v
+```
 
-**Local Installation:**
+## 🚀 Local Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/manuvenro/wealthview.git
+   cd wealthview
+   ```
+
+2. **Set up the virtual environment:**
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Environment Variables:**
+   Rename `.env.example` to `.env` and insert your API keys for Polygon and FMP.
+   ```bash
+   cp .env.example .env
+   ```
+
+5. **Run the platform:**
+   ```bash
+   streamlit run app.py
+   ```
+
+---
+*Developed and maintained by [Manuel Ventosa Rodríguez](https://www.linkedin.com/in/manuel-ventosa-rodr%C3%ADguez-700993301/).*
 
 
 
