@@ -62,7 +62,7 @@ Run the test suite locally:
 ```bash
 pytest tests/test_quant_validation.py -v
 
-## 🚀 Local Installation ##
+## 🚀 Local Installation
 
 1. **Clone the repository:**
    ```bash
