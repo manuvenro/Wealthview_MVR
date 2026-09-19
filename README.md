@@ -8,8 +8,7 @@
 
 **WealthView** is a full-stack, institutional-grade B2B quantitative risk and portfolio management SaaS platform. It is engineered to bridge the gap between complex econometric modeling and actionable portfolio allocation for High-Net-Worth (HNW) asset managers and private equity environments.
 
-<img width="1248" height="909" alt="dashboard_main" src="https://github.com/user-attachments/assets/404d0577-2a97-48ba-a2ce-f8dfd2882dc4" />
-
+![Dashboard Overview](docs/images/dashboard_main.png)
 
 > **Note on Repository Contents:** Certain database schemas and client-side ingestion pipelines have been abstracted or omitted from this public repository to protect institutional data.
 
@@ -22,8 +21,7 @@ The platform's backend is implemented from first principles rather than by calli
 *   **Factor Attribution:** Implementation of **Fama-French 3-Factor models** utilizing Ordinary Least Squares (OLS) econometrics to dissect return streams.
 *   **Risk-Adjusted Performance:** Automated calculation of Sharpe Ratio, Treynor Ratio, Information Ratio, and Jensen's Alpha against dynamic benchmarks.
 
-<img width="1048" height="945" alt="equity_dcf" src="https://github.com/user-attachments/assets/83cf81c1-9bde-4663-bee8-dbc1575bc243" />
-
+![Equity Module DCF](docs/images/equity_dcf.png)
 
 ### 2. Tail-Risk & Stress Testing Engine
 *   **Downside Risk:** Conditional Value at Risk (CVaR / Expected Shortfall) implementation for extreme market scenarios.
@@ -58,39 +56,10 @@ Numerical accuracy is enforced through rigorous unit testing via `pytest`. The t
 *   **Risk Monotonicity:** CVaR strictly bounds VaR ($CVaR \le VaR$) across all confidence intervals.
 
 Run the test suite locally:
-
 ```bash
 pytest tests/test_quant_validation.py -v
 
-## 🚀 Local Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/manuvenro/wealthview.git
-   cd wealthview
-
-2. **Set up the virtual enviroment:**
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-
-4. **Enviroment Variables:**
-   ```bash
-   cp .env.example .env
-
-5. **Run the platform:**
-   ```bash
-   streamlit run app.py
-
-
-**Future Roadmap**
-### Implementation of the Algorithmic Alpha Engine: A systematic equity strategy combining factor construction with backtesting infrastructure to generate alpha in public equities.
-
-**Developed and maintained by [Manuel Ventosa Rodríguez](https://www.linkedin.com/in/manuel-ventosa-rodr%C3%ADguez-700993301/).**
+**Local Installation:**
 
 
 
