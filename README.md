@@ -8,10 +8,10 @@
 
 **WealthView** is a full-stack, institutional-grade B2B quantitative risk and portfolio management SaaS platform. It is engineered to bridge the gap between complex econometric modeling and actionable portfolio allocation for High-Net-Worth (HNW) asset managers and private equity environments.
 
-<img width="1248" height="909" alt="dashboard_main" src="https://github.com/user-attachments/assets/d5d2916f-a723-48ce-8880-3d06c90c8953" />
+<img width="1222" height="937" alt="dashboard" src="https://github.com/user-attachments/assets/1b17015b-aed4-4008-9d6e-4ce9ae7800a2" />
 
 
-> **Note on Repository Contents:** Certain database schemas and client-side ingestion pipelines have been abstracted or omitted from this public repository to protect institutional data.
+> **Note on Repository Contents:** This is a sample of a dashboard in Wealthview.
 
 ##  Core Quantitative Engines
 
@@ -22,7 +22,7 @@ The platform's backend is implemented from first principles rather than by calli
 *   **Factor Attribution:** Implementation of **Fama-French 3-Factor models** utilizing Ordinary Least Squares (OLS) econometrics to dissect return streams.
 *   **Risk-Adjusted Performance:** Automated calculation of Sharpe Ratio, Treynor Ratio, Information Ratio, and Jensen's Alpha against dynamic benchmarks.
 
-<img width="1048" height="945" alt="equity_dcf" src="https://github.com/user-attachments/assets/42bed3bd-ec24-4ec6-aa64-7539ef4efede" />
+<img width="1300" height="945" alt="EquityDCF" src="https://github.com/user-attachments/assets/9dcc19c4-9e95-4743-9bc5-84fae42da7f2" />
 
 
 ### 2. Tail-Risk & Stress Testing Engine
