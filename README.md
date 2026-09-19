@@ -13,7 +13,7 @@
 
 > **Note on Repository Contents:** Certain database schemas and client-side ingestion pipelines have been abstracted or omitted from this public repository to protect institutional data.
 
-## 🧠 Core Quantitative Engines
+##  Core Quantitative Engines
 
 The platform's backend is implemented from first principles rather than by calling pre-built financial libraries:
 
@@ -34,7 +34,7 @@ The platform's backend is implemented from first principles rather than by calli
 *   **American Options:** Built a **Cox-Ross-Rubinstein (CRR) Binomial Tree** from scratch to price American options (allowing for early exercise).
 *   **Greeks Calculation:** Computed delta, gamma, and theta using finite difference methods over the binomial lattice.
 
-## 🤖 Algorithmic Alpha Engine (In Progress)
+##  Algorithmic Alpha Engine (In Progress)
 
 This module functions as the core of my undergraduate thesis and focuses on systematic quantitative trading.
 
@@ -43,14 +43,14 @@ This module functions as the core of my undergraduate thesis and focuses on syst
 *   **Current Status:** In active development (Not yet yielding production results).
 *   **Tech Stack:** Python (NumPy, Pandas).
 
-## ⚙️ Technical Architecture
+##  Technical Architecture
 
 *   **Frontend:** Built entirely in Python using **Streamlit** for highly reactive, data-heavy financial dashboards.
 *   **Backend & Math:** Heavy utilization of `NumPy`, `Pandas`, and `SciPy` for matrix operations and econometric modeling.
 *   **Data Pipeline:** Automated, asynchronous real-time financial data ingestion via REST APIs (**Financial Modeling Prep, Polygon.io, FRED**) managed by an `APScheduler` daemon.
 *   **Database:** `SQLite` infrastructure for seamless client state management.
 
-## 🧪 Testing & Validation
+##  Testing & Validation
 
 Numerical accuracy is enforced through rigorous unit testing via `pytest`. The test suite guarantees:
 *   **CRR Convergence:** The Binomial Tree pricing algorithm strictly converges to the Black-Scholes formula for European options as the number of steps increases.
@@ -62,7 +62,7 @@ Run the test suite locally:
 pytest tests/test_quant_validation.py -v
 ```
 
-## 🚀 Local Installation
+##  Local Installation
 
 1. **Clone the repository:**
    ```bash
