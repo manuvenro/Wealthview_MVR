@@ -43,16 +43,20 @@ The platform's backend is driven by several advanced financial models built from
    cd wealthview
 
 2. **Set up the virtual enviroment:**
+   ```bash
    python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 3. **Install dependencies:**
+   ```bash
    pip install -r requirements.txt
 
 4. **Enviroment Variables:**
+   ```bash
    cp .env.example .env
 
 5. **Run the platform:**
+   ```bash
    streamlit run app.py
 
 
