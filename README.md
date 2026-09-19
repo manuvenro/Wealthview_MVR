@@ -58,6 +58,7 @@ Numerical accuracy is enforced through rigorous unit testing via `pytest`. The t
 *   **Risk Monotonicity:** CVaR strictly bounds VaR ($CVaR \le VaR$) across all confidence intervals.
 
 Run the test suite locally:
+
 ```bash
 pytest tests/test_quant_validation.py -v
 
