@@ -11,7 +11,7 @@
 <img width="1222" height="937" alt="dashboard" src="https://github.com/user-attachments/assets/1b17015b-aed4-4008-9d6e-4ce9ae7800a2" />
 
 
-> **Note on Repository Contents:** This is a sample of a dashboard in Wealthview.
+> **Note on Repository Contents:** This is a sample of the dashboard in Wealthview.
 
 ##  Core Quantitative Engines
 
@@ -24,6 +24,7 @@ The platform's backend is implemented from first principles rather than by calli
 
 <img width="1300" height="945" alt="EquityDCF" src="https://github.com/user-attachments/assets/9dcc19c4-9e95-4743-9bc5-84fae42da7f2" />
 
+> **Note on Repository Contents:** This is a sample of DCF analysis in the Deep View section of Wealthview.
 
 ### 2. Tail-Risk & Stress Testing Engine
 *   **Downside Risk:** Conditional Value at Risk (CVaR / Expected Shortfall) implementation for extreme market scenarios.
